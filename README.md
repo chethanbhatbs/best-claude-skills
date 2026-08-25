@@ -634,7 +634,7 @@ An entry has to clear all four:
 ## Verify it yourself
 
 ```bash
-git clone https://github.com/OWNER/best-claude-skills
+git clone https://github.com/chethanbhatbs/best-claude-skills
 cd best-claude-skills
 ./scripts/refresh-stats.sh          # re-pulls every stat from the GitHub API
 ```
