@@ -14,8 +14,32 @@ Every entry gives you the three things you actually need:
 
 ---
 
+## My own skills
+
+Skills I wrote and use every day. Each one is a single `SKILL.md` inside [`my-skills/`](my-skills/).
+
+| Skill | What it does | Open | Raw file |
+|---|---|---|---|
+| **ui-taste** | UI and UX rules: one look across every screen, no AI-looking design, clear states, a check to run before calling a screen done. | [SKILL.md](https://github.com/chethanbhatbs/best-claude-skills/blob/main/my-skills/ui-taste/SKILL.md) | [raw](https://raw.githubusercontent.com/chethanbhatbs/best-claude-skills/main/my-skills/ui-taste/SKILL.md) |
+| **eos** | End of session: saves a full summary of the session to a file, so nothing is lost. | [SKILL.md](https://github.com/chethanbhatbs/best-claude-skills/blob/main/my-skills/eos/SKILL.md) | [raw](https://raw.githubusercontent.com/chethanbhatbs/best-claude-skills/main/my-skills/eos/SKILL.md) |
+| **resume** | Start of next session: loads that saved summary so work picks up where it stopped. Pairs with `eos`. | [SKILL.md](https://github.com/chethanbhatbs/best-claude-skills/blob/main/my-skills/resume/SKILL.md) | [raw](https://raw.githubusercontent.com/chethanbhatbs/best-claude-skills/main/my-skills/resume/SKILL.md) |
+| **guide-mode** | Claude guides, you run every step. Exact steps, one at a time, and it checks what you paste back. | [SKILL.md](https://github.com/chethanbhatbs/best-claude-skills/blob/main/my-skills/guide-mode/SKILL.md) | [raw](https://raw.githubusercontent.com/chethanbhatbs/best-claude-skills/main/my-skills/guide-mode/SKILL.md) |
+
+**Install one** (Claude Code):
+
+```bash
+mkdir -p ~/.claude/skills/ui-taste
+curl -o ~/.claude/skills/ui-taste/SKILL.md \
+  https://raw.githubusercontent.com/chethanbhatbs/best-claude-skills/main/my-skills/ui-taste/SKILL.md
+```
+
+Swap `ui-taste` for any skill name above. It loads in the next Claude Code session.
+
+---
+
 ## Contents
 
+- [My own skills](#my-own-skills)
 - [How to read this list](#how-to-read-this-list)
 - [Start here (top 5)](#start-here-top-5)
 - [1. Official and foundational](#1-official-and-foundational)
