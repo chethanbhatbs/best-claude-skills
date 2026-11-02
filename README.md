@@ -37,9 +37,21 @@ Swap `ui-taste` for any skill name above. It loads in the next Claude Code sessi
 
 ---
 
+## Skills I use and like
+
+Made by others. I use these every day. Each folder in [`skills-i-use/`](skills-i-use/) explains why and how to install, and links to the original repo (nothing is copied).
+
+| Skill | What it does | My notes | Source |
+|---|---|---|---|
+| **claude-mem** | Memory across sessions: records what the agent did and brings it back next time. | [notes](skills-i-use/claude-mem/README.md) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) |
+| **agent-browser** | Lets the agent drive a real browser: click, type, screenshot. | [notes](skills-i-use/agent-browser/README.md) | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |
+
+---
+
 ## Contents
 
 - [My own skills](#my-own-skills)
+- [Skills I use and like](#skills-i-use-and-like)
 - [How to read this list](#how-to-read-this-list)
 - [Start here (top 5)](#start-here-top-5)
 - [1. Official and foundational](#1-official-and-foundational)
