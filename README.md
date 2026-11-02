@@ -45,6 +45,7 @@ Made by others. I use these every day. Each folder in [`skills-i-use/`](skills-i
 |---|---|---|---|
 | **claude-mem** | Memory across sessions: records what the agent did and brings it back next time. | [notes](skills-i-use/claude-mem/README.md) | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) |
 | **agent-browser** | Lets the agent drive a real browser: click, type, screenshot. | [notes](skills-i-use/agent-browser/README.md) | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |
+| **i-have-adhd** | Shapes Claude's answers for ADHD: next action first, numbered steps, no side topics. | [notes](skills-i-use/i-have-adhd/README.md) | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
 
 ---
 
