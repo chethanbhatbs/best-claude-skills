@@ -625,6 +625,19 @@ It is the least recently updated entry in this entire README (last push 2026-04-
 
 ---
 
+### zhuyansen/agent-skills-hub
+**Link:** https://github.com/zhuyansen/agent-skills-hub
+**Description:** Searchable open-source directory of AI agent skills, MCP servers and tools (hosted at agentskillshub.top), with 8-hour GitHub indexing and rule-based security grading.
+**Signals:** 502 stars / 61 forks / MIT / last push 2026-11-17
+
+**Analysis.** Unlike static awesome lists, this pairs an automated GitHub crawler with a searchable web catalog and publishes its security taxonomy openly (43 rules checking README text and repository metadata, grading entries Safe, Caution, Unsafe, Reject or Unaudited). The project claims 276,000+ indexed entries and 138,000+ graded so far, MIT licensed.
+
+At 502 stars it has a fraction of the community vetting behind VoltAgent or ComposioHQ, and the automated security grade reads README content and repository metadata rather than auditing implementation code or running skills in a sandbox - treat a Safe badge as a fast first filter, not a code review.
+
+**Use it if:** you want to search across a large GitHub-indexed catalog with upfront README-level risk flags before digging into source files.
+
+---
+
 ## Anthropic's 19 official skills
 
 Direct links into [anthropics/skills](https://github.com/anthropics/skills). Descriptions are the `description` field from each `SKILL.md`, condensed - these are the exact strings the agent uses to decide when to load a skill, which makes them worth reading as examples of how to write a trigger.

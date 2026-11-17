@@ -37,3 +37,4 @@ wshobson/agents
 sickn33/agentic-awesome-skills
 alirezarezvani/claude-skills
 travisvn/awesome-claude-skills
+zhuyansen/agent-skills-hub
